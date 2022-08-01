@@ -1,0 +1,40 @@
+.liked {
+    padding: 40px 60px;
+    &__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        color: #000000;
+    }
+    &__wrapper {
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: repeat(4, 210px);
+        gap: 40px;
+    }
+    &__null {
+        padding: 200px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+    }
+    &__descr {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 40px;
+    }
+    &__btn {
+        width: 245px;
+        height: 55px;
+        background: #9DD458;
+        border-radius: 18px;
+        color: #fff;
+        border: none;
+    }
+}
