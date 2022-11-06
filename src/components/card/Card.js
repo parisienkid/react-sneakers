@@ -3,6 +3,9 @@ import { useState, useEffect } from 'react';
 import './card.scss';
 import likeImg from '../../resources/img/like-card.svg';
 import likeActiveImg from '../../resources/img/like-active-card.svg';
+import okSrc from '../../resources/img/card-ok.svg';
+import plusSrc from '../../resources/img/card-plus.svg';
+
 
 import AppContext from '../../context';
 import { useContext } from 'react';
@@ -15,9 +18,6 @@ const Card = ({title,img,price,skel,id, likeActive, selectActive, searchedActive
     const [like, setLike] = useState(likeActive);
     const [skeleton, setSkeleton] = useState(false);
     const [searched, setSearched] = useState(searchedActive);
-
-    const okSrc = '/img/card-ok.svg';
-    const plusSrc = '/img/card-plus.svg';
 
     useEffect(() => {
         if (skel) {
