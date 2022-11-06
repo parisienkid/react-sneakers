@@ -131,9 +131,9 @@ function App() {
 					<div className="wrapper">
 						<Header price={price} handleBag={handleBag}/>
 						<Routes>
-							<Route path='/' element={<ShopPage loading={loading}/>}/>
-							<Route path='/liked' element={<LikedPage sneakers={sneakersList} handleCard={handleCard}/>}/>
-							<Route path='/orders' element={<OrdersPage/>}></Route>
+							<Route path='/react-sneakers/' element={<ShopPage loading={loading}/>}/>
+							<Route path='/react-sneakers/liked' element={<LikedPage sneakers={sneakersList} handleCard={handleCard}/>}/>
+							<Route path='/react-sneakers/orders' element={<OrdersPage/>}></Route>
 						</Routes>
 					</div>
 					<Bag price={price} handleBag={handleBag} handleCard={handleCard} onOrderClick={onOrderClick} sneakers={sneakersList} bagActive={bagActive}/>

@@ -36,7 +36,7 @@ const LikedPage = ({sneakers, handleCard}) => {
                     :
                     <div className="liked__null">
                         <div className="liked__descr">Закладок нет :(</div>
-                        <Link to='/'><button className="liked__btn">Вернуться назад</button></Link>
+                        <Link to='/react-sneakers/'><button className="liked__btn">Вернуться назад</button></Link>
                     </div>
                 }
         </div>

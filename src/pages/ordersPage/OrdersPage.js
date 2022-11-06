@@ -51,7 +51,7 @@ const OrdersPage = () => {
                         :
                         <div className="orders__null">
                             <div className="liked__descr">Покупок нет :(</div>
-                            <Link to='/'><button className="liked__btn">Вернуться назад</button></Link>
+                            <Link to='/react-sneakers/'><button className="liked__btn">Вернуться назад</button></Link>
                         </div>
                 }
         </div>
