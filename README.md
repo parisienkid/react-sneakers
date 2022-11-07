@@ -4,7 +4,7 @@
 
 Sneaker shop on 'react'.
 
-*click, click* - parisienkid.github.io/react-sneakers/
+*click, click* - https://parisienkid.github.io/react-sneakers/
 
 ## Setup / Installation:
 
